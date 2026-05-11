@@ -1,0 +1,25 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Ardalis.Specification" Version="9.3.1" />
+    <PackageReference Include="Mapster" Version="10.0.7" />
+    <PackageReference Include="MediatR" Version="14.1.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\ESFE.DataAccess\ESFE.DataAccess.csproj" />
+    <ProjectReference Include="..\ESFE.Entities\ESFE.Entities.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="DTOs\" />
+    <Folder Include="UsesCases\" />
+  </ItemGroup>
+
+</Project>
