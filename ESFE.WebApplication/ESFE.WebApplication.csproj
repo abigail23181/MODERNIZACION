@@ -7,7 +7,7 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\MODERNIZACIONE.BusinessLogic\MODERNIZACION.BusinessLogic.csproj" />
+    <ProjectReference Include="..\ESFE.BusinessLogic\ESFE.BusinessLogic.csproj" />
   </ItemGroup>
 
 </Project>
