@@ -6,6 +6,6 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace ESFE.BusinessLogic.UsesCases.Brands.Queries.GetBrands
+namespace ESFE.BusinessLogic.UsesCases.Brands.Queries.GetBrands;
 
-    public record GetBrandsQuery() : IRequest<List<BrandResponse>>;
+    public record GetBrandsQuery() : IRequest<List<BrandResponse>>; 

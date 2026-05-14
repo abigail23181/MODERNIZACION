@@ -1,5 +1,4 @@
-﻿using ESFE.BusinessLogic.UseCases.Brands.Commands.UpdateBrand;
-using ESFE.DataAccess.Interfaces;
+﻿using ESFE.DataAccess.Interfaces;
 using ESFE.Entities;
 using Mapster;
 using MediatR;

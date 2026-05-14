@@ -1,6 +1,7 @@
-﻿using ESFE.BusinessLogic.DTOs
-using MediatR
+﻿using ESFE.BusinessLogic.DTOs;
 
-namespace ESFE.BusinessLogic.UseCases.Brands.Commands.UpdateBrand;
+using MediatR;
+
+namespace ESFE.BusinessLogic.UsesCases.Brands.Commands.UpdateBrand;
 
 public record UpdateBrandCommand(UpdateBrandRequest Request) : IRequest<int>;

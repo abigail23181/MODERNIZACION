@@ -8,7 +8,7 @@ using System.Text;
 
 namespace ESFE.BusinessLogic.UsesCases.Brands.Queries.GetBrands
 {
-    internal sealed class GetBrandsHandler(IEfRepository<Brand> _repository)
+    internal sealed class GetBrandHandler(IEfRepository<Brand> _repository)
         : IRequestHandler<GetBrandsQuery, <List<BrandResponse>
     {
 {
